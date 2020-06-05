@@ -37,7 +37,7 @@
       const controls = new THREE.OrbitControls(camera, renderer.domElement);
       controls.addEventListener("change", render);
       controls.minDistance = 1;
-      controls.maxDistance = 50;
+      controls.maxDistance = 10;
       controls.enablePan = false;
       controls.update();
       controls.target.copy(mesh.position);
